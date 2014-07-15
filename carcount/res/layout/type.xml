@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#3B3B3B">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选调查车型"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#EE7942"
+        android:paddingBottom="15dp"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E0FFFF">
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/motuoC"
+        android:text="摩托车"
+       />
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xiaoqicheC"
+        android:text="小汽车"/>
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xiaokecheC"
+        android:text="小客车"/>
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dahuocheC"
+        android:text="大货车"/>
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xiaohuocheC"
+        android:text="小货车"/>
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zhongkecheC"
+        android:text="中客车"/>
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gongjiaoC"
+        android:text="公交"/>
+    <CheckBox android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dakecheC"
+        android:text="大客车"/>
+    </LinearLayout>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typefi"
+        android:text="选好了"
+        android:background="#8B2252"
+        android:layout_gravity="end"
+        />
+    
+
+</LinearLayout>

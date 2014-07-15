@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fangxiang">
+        <item>东进口</item>
+        <item>南进口</item>
+        <item>西进口</item>
+        <item>北进口</item>
+    </string-array>
+    <string-array name="zhuanxiang">
+        <item>左转</item>
+        <item>右转</item>
+        <item>直行</item>
+    </string-array>
+</resources>

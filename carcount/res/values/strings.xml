@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">carcount</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tip">选择方向</string>
+    <string name="tip1">选择转方向</string>
+    <string name="send">发送</string>
+    <string name="about">车型简介</string>
+    <string name="local">本地保存</string>
+	<string name="save">保存当前时段</string>
+</resources>
